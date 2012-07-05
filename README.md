@@ -24,6 +24,9 @@ To run from the command-line, use something like this:
     $ trigger-obs.pl key=mys3cretkey4daweb project=home:thatsme package=super-tools
 
 
+To use it from the web, install the trigger-obs.pl as a cgi script, using
+a url like http://example.com/cgi-bin/trigger-obs.pl?key=mys3cretkey4daweb&project=home:thatsme&package=super-tools
+
 [obs-trigger]: http://github.com/wvengen/obs-trigger
 [Open Build Service]: http://open-build-service.org/
 [OpenSUSE Build Service]: https://build.opensuse.org/
