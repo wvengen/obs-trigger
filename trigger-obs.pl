@@ -2,8 +2,9 @@
 use strict;
 use warnings;
 
-use File::Basename;
-use lib dirname($0).'/perllib';
+# when you need to install dependencies locally, this would be useful
+#use File::Basename;
+#use lib dirname($0).'/perllib';
 
 use CGI;
 use WWW::Mechanize::GZip;
