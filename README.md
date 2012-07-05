@@ -20,6 +20,7 @@ Besides the secret key, it is needed to set your OpenSUSE Build Service
 username and password, for this is a protected action.
 
 To run from the command-line, use something like this:
+
     $ trigger-obs.pl key=mys3cretkey4daweb project=home:thatsme package=super-tools
 
 
